@@ -1,0 +1,200 @@
+ <html>
+    <head>
+        <title>TUGAS PEMOGRAMAN WEB 1</title><!-Judul->
+             <link rel=stylesheet href="phi.css" type="text/css"><!-Sytle Eksternal File->
+             <style type="text/css">
+                .pembuka,#anchor{
+                       font-family:Courier;
+                       color:purple;}
+             </style><!-Sytle Dokumen File->
+
+            <script src="phi.js"></script><!-JS Eksternal File->
+     </head>
+
+    <body bgcolor="pink">
+
+        <SCRIPT LANGUAGE="Javascript">
+            alert("Oiya jangan lupa baca penjelasannya ya!!! \nTerima Kasih");
+        </SCRIPT> <!-Javascript Internal File->
+
+
+       <center><h1><font color="red"><b>CURICULUM VITAE</b></h1><!-Selector HTML->
+       <img src=".\phi.jpg" width=150 px alt="foto vika"></center><!-Foto->
+       <br>
+
+       <pre>
+            <span class="pembuka">       Hallo, perkenalkan nama saya Vika Putri Ariyanti. Saya adalah mahasiswa S1 jurusan Teknik Informatika Universitas Gunadarma.
+       <br>       Berikut ini adalah profil lengkap mengenai saya :</span><!-Selector Class>
+       </pre>
+        <div id="anchor"><!-Selector ID->
+        <ul><!-anchor->
+          <li><a href=#datadiri> Data Diri</a></li><br>
+          <li><a href=#pendidikan> Pendidikan</a></li><br>
+          <li><a href=#pengalaman> Pengalaman</a></li><br>
+          <li><a href=#penghargaan> Penghargaan</a></li>
+        </ul>
+        </div>
+
+        <center>&copy Vika Putri Ariyanti</center>
+        <button onclick="liat()">Penjelasan</button>
+        <script>
+            function liat() {
+                document.getElementById("demo").innerHTML = "Klik masing-masing kategori profil untuk mengetahui lebih lanjut mengenai profil lengkap saya. Misalkan, jika Anda ingin mengetahui tentang pendidikan saya maka klik pada pendidikan";
+                }
+        </script>
+
+        <p id="demo"></p>
+
+        <p>
+            <pre>
+              <a name="datadiri"><!-biodata->
+              <hr><b style="font-size:20px;">          DATA DIRI</b></hr><!-Sytle Dalam Tag Tunggal->
+              <hr></hr>
+                <div class = "biodata">
+                    <table align="center">
+                       <tr>
+                         <td>Nama</td>
+                         <td>:</td>
+                         <td>Vika Putri Ariyanti</td>
+                      </tr>
+
+                       <tr>
+                         <td>Tempat,Tanggal Lahir</td>
+                         <td>:</td>
+                         <td>Pekalongan, 16 Agustus 1999</td>
+                      </tr>
+
+                       <tr>
+                         <td>Agama</td>
+                         <td>:</td>
+                         <td>Islam</td>
+                      </tr>
+
+                       <tr>
+                         <td>Jenis Kelamin</td>
+                         <td>:</td>
+                         <td>Perempuan</td>
+                      </tr>
+
+                       <tr>
+                         <td>No. Hp</td>
+                         <td>:</td>
+                         <td>085591268569</td>
+                      </tr>
+
+                       <tr>
+                         <td>Kewarganegaraan</td>
+                         <td>:</td>
+                         <td>Indonesia</td>
+                      </tr>
+
+                       <tr>
+                         <td>Alamat</td>
+                         <td>:</td>
+                         <td>Wangandowo,Bojong,Pekalongan 51156</td>
+                      </tr>
+
+                       <tr>
+                         <td>Email</td>
+                         <td>:</td>
+                         <td><a href="mailto:vikaputriariyanti@gmail.com">Email Vika</a></td>
+                      </tr>
+
+                       <tr>
+                         <td>Facebook</td>
+                         <td>:</td>
+                         <td><a href="https://web.facebook.com/vikaputriariyanti">Fb Vika</a></td>
+                       </tr>
+
+                       <tr>
+                         <td>Twitter</td>
+                         <td>:</td>
+                         <td><a href="https://twitter.com/vikaputria">Twitter Vika</a></td>
+                       </tr>
+
+                       <tr>
+                         <td>Linked</td>
+                         <td>:</td>
+                         <td><a href="https://www.linkedin.com/in/vikaputriariyanti/">Linked Vika</a></td>
+                      </tr>
+
+                       <tr>
+                         <td>Github</td>
+                         <td>:</td>
+                         <td><a href="http://github.com/Vputri">Github Vika</a></td>
+                      </tr>
+
+                       <tr>
+                         <td>Website</td>
+                         <td>:</td>
+                         <td><a href="http://vputriariyanti.blogspot.com">Blog Vika</a></td>
+                      </tr>
+                    </table>
+                </div><a/>
+
+              <a name="pendidikan"><!-pendidikan->
+              <hr><b style="font-size:20px;">         Pendidikan</b></hr><!-Sytle Dalam Tag Tunggal->
+              <hr></hr>
+                  <div class = "pendidikan">
+                     <table border="1" cellpadding="20" align="center"><!-Tabel->
+                       <tr align="center">
+                         <td>Tahun</td>
+                         <td>Nama Sekolah</td>
+                         <td>Link Sekolah</td>
+                         <td>Foto Sekolah</td>
+                       <tr valign="top">
+                         <td align="center">2004-2005</td>
+                         <td>TK Aisyah Wangandowo</td>
+                         <td></td>
+                         <td></td>
+                       </tr>
+
+                       <tr valign="top">
+                         <td align="center">2005-2011</td>
+                         <td>SDN 03 Wangandowo</td>
+                         <td></td>
+                         <td><img src=".\sdwdw.png" width=300 px alt="SDN 03 Wangandowo"</td>
+                       </tr>
+
+                       <tr valign="top">
+                         <td align="center">2011-2014</td>
+                         <td>SMP 1 Kajen</td>
+                         <td></td>
+                         <td><img src=".\spensaka.jpg" width=300 px alt="SMP 1 Kajen"</td>
+                       </tr>
+
+                       <tr valign="top">
+                         <td align="center">2014-2017</td>
+                         <td>SMA 1 Kajen</td>
+                         <td><a href="http://www.sma1kajen.sch.id">SMA 1 Kajen<a></td>
+                         <td><img src=".\smanka.jpg" width=300 px alt="SMA 1 Kajen"</td>
+                       </tr>
+
+                       <tr valign="top">
+                         <td align="center">2017-Sekarang</td>
+                         <td>Universitas Gunadarma</td>
+                         <td><a href="http://www.gunadarma.ac.id">Universitas Gunadarma<a></td>
+                         <td><img src=".\gundar.jpg" width=300 px alt="UG SIMATUPANG""</td>
+                       </tr>
+                     </table>
+                  </div></a>
+
+              <a name="pengalaman"><!-pengalaman->
+              <hr><b style="font-size:20px;">         Pengalaman</b></hr><!-Sytle Dalam Tag Tunggal->
+              <hr></hr>
+              <div class="pengalaman">                     Maret 2019-Sekarang            Asisten Lab TI Universitas Gunadarma</div></a>
+ 
+
+              <a name="penghargaan"><!-penghargaan->
+              <hr><b style="font-size:20px;">         Penghargaan</b></hr><!-Sytle Dalam Tag Tunggal->
+              <hr></hr>
+                  <div class="penghargaan">
+                     As Student with Best Academic Ahchievement Gunadarma University on 2<sup>nd</sup> Semester 2017/2018
+                     As Student with Best Academic Ahchievement Gunadarma University on 1<sup>st</sup> Semester 2018/2019
+                  </div></a>
+            </pre>
+
+            <center>&copy Vika Putri Ariyanti</center>
+
+    </body>
+</html>
